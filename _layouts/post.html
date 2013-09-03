@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Troy Swanson | {{ page.title }}</title>
+  <title>Surya Gaddipati | {{ page.title }}</title>
   {% include header-stuff.html %}
+  {% include head.html %}
   <style type="text/css">
     /* header */
     header {
@@ -102,8 +103,6 @@
   <div class="pure-g-r">
     <div class="pure-u-1-4">
       <header>
-        <h1>Hi, I’m Troy.</h1>
-        <h2>I build websites.</h2>
         <nav>
           <ul>
             <li><a href="/">← Home</a></li>
@@ -117,7 +116,6 @@
         <h1 itemprop="name">{{ page.title }}</h1>
         <ul class="meta">
           <li class="pubdate"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></li>
-          <li class="author"><a href="https://plus.google.com/112834200360888970972" rel="author">Troy Swanson</a></li>
           <li class="permalink"><a itemprop="url" href="{{ site.url }}{{ page.url }}" title="Permalink">∞</a></li>
         </ul>
         <div class="body" itemprop="articleBody">
